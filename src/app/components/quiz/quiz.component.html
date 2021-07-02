@@ -1,0 +1,16 @@
+<mat-card class="quiz-card">
+  <mat-card-header>
+    <div mat-card-avatar class="quiz-header-image"></div>
+    <mat-card-title> {{ topic }}</mat-card-title>
+    <mat-card-subtitle>Good luck!</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content class="question">
+    <div class="quiz-container">
+      {{ quiz.Sports.q1 }}
+    </div>
+    <button id="previous">Previous Question</button>
+    <button id="next">Next Question</button>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
+  </mat-card-content>
+</mat-card>

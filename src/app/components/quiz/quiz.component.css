@@ -1,0 +1,24 @@
+mat-grid-tile {
+  background: lightblue;
+}
+
+.quiz-header-image {
+  background-image: url("https://media.npr.org/assets/img/2020/06/10/gettyimages-200199027-001-b5fb3d8d8469ab744d9e97706fa67bc5c0e4fa40-s800-c85.webp");
+  background-size: cover;
+}
+
+.question {
+  justify-content: center;
+  align-items: center;
+}
+button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  background-color: #279;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
